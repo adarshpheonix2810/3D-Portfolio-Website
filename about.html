@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white font-['Inter']">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+      <h1 class="text-4xl font-bold text-cyan-400 mb-6">ABOUT ME</h1>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p class="mb-6 text-lg">
+            Hi there! I'm Adarsh Singh, a passionate front-end developer with
+            over 6 months of experience in designing and developing web
+            applications for various projects. I absolutely love building web applications and am always
+            eager to learn new technologies, frameworks, cybersecurity.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#javascript</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#react.js</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#redux</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#node.js</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#express.js</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#mongoDB</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#mongoose</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#cloudinary</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm">#ejs</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#html</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm">#css</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#sass</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#bootstrap</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#tailwind</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm">#git</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#github</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm">#aws</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#terminal</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#adobeXD</span
+            >
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              >#figma</span
+            >
+          </div>
+
+          <h2 class="text-3xl font-bold text-cyan-400 mb-6">SKILLS</h2>
+          <div class="flex justify-between items-center max-w-md">
+            <div class="relative flex flex-col items-center">
+              <div
+                class="tooltip absolute -top-10 bg-gray-800 text-white px-2 py-1 rounded-md text-sm"
+                style="color: #e34f26"
+              >
+                HTML
+              </div>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="HTML"
+                class="w-16 h-16 mb-2"
+              />
+              <span style="color: #e34f26">H</span>
+            </div>
+            <div class="relative flex flex-col items-center">
+              <div
+                class="tooltip absolute -top-10 bg-gray-800 text-white px-2 py-1 rounded-md text-sm"
+                style="color: #1572b6"
+              >
+                CSS
+              </div>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS"
+                class="w-16 h-16 mb-2"
+              />
+              <span style="color: #1572b6">C</span>
+            </div>
+            <div class="relative flex flex-col items-center">
+              <div
+                class="tooltip absolute -top-10 bg-gray-800 text-white px-2 py-1 rounded-md text-sm"
+                style="color: #61dafb"
+              >
+                React
+              </div>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="React"
+                class="w-16 h-16 mb-2"
+              />
+              <span style="color: #61dafb">R</span>
+            </div>
+            <div class="relative flex flex-col items-center">
+              <div
+                class="tooltip absolute -top-10 bg-gray-800 text-white px-2 py-1 rounded-md text-sm"
+                style="color: #339933"
+              >
+                Node.js
+              </div>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                class="w-16 h-16 mb-2"
+              />
+              <span style="color: #339933">N</span>
+            </div>
+          </div>
+
+          <script>
+            document.querySelectorAll(".relative").forEach((item) => {
+              const tooltip = item.querySelector(".tooltip");
+              item.addEventListener("mouseenter", () => {
+                tooltip.style.visibility = "visible";
+                tooltip.style.opacity = "1";
+              });
+              item.addEventListener("mouseleave", () => {
+                tooltip.style.visibility = "hidden";
+                tooltip.style.opacity = "0";
+              });
+            });
+          </script>
+        </div>
+
+        <div class="hidden md:block">
+          <img
+            src="assets/images/coder.svg"
+            alt="Developer Illustration"
+            class="w-full h-auto"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

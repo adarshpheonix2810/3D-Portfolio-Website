@@ -1,0 +1,16 @@
+:root {
+    --background: #fd05e4;
+    --foreground: #000000;
+    --primary: #4595eb;
+    --primary-foreground: #fd05e4;
+  }
+  .dark {
+    --background: #111;
+    --foreground: #ffffff;
+    --primary: #4595eb;
+    --primary-foreground: #ffffff;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
